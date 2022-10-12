@@ -1,0 +1,34 @@
+.carousel-dark .carousel-caption {
+    color: white !important;
+    top: 22%;
+}
+span.carousel-control-next-icon.inline-block.bg-no-repeat {
+    
+    display: none;
+}
+span.carousel-control-prev-icon.inline-block.bg-no-repeat {
+    display: none;
+}
+.carousel-indicators.absolute.right-0.bottom-0.left-0.flex.justify-center.p-0.mb-4 {
+    display: none;
+}
+@media (max-width: 991px) {
+    .carousel-dark .carousel-caption {
+        color: white !important;
+        top: 10%;
+    }
+  }
+  @media (max-width: 768px) {
+    .carousel-dark .carousel-caption {
+        color: white !important;
+        top: 2%;
+
+    }
+  }
+  @media (max-width: 660px) {
+    .carousel-dark .carousel-caption {
+        color: white !important;
+        top: 0;
+
+    }
+  }
